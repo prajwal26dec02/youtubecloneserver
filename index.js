@@ -12,7 +12,7 @@ const app = express();
 
 app.use(cors(
   {
-    origin:["https://youtubeclone-hdfqzyxhg-prajwals-projects-1b6a8b62.vercel.app"]
+    origin:["https://youtubeclone-crzsxtho3-prajwals-projects-1b6a8b62.vercel.app"]
   }
 ));
 app.use(express.json({ limit: "30mb", extended: true }));
